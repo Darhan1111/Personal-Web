@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Portofolio() {
   return (
-    <section id="portofolio" className="pt-8 pb-8 bg-slate-100">
+    <section id="portofolio" className="pt-24 pb-8 bg-slate-100">
       <div className="container mx-auto p-2">
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center mb-8">
-            <h4 className="font-semibold text-lg text-teal-500 mb-2">
+            <h4 className="font-semibold text-lg text-[#3674B5] mb-2">
               Portofolio
             </h4>
             <h2 className="font-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl">

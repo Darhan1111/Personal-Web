@@ -6,7 +6,7 @@ export default function Introduction() {
       <div className="container mx-auto p-5">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
-            <h1 className="text-base font-semibold text-teal-500 md:text-xl">
+            <h1 className="text-base font-semibold text-[#3674B5] md:text-xl">
               Halo Semua 😄,{" "}
               <span className="block font-bold text-slate-900 text-4xl mt-1">
                 {" "}
@@ -21,8 +21,9 @@ export default function Introduction() {
             </p>
 
             <a
-              href="#"
-              className="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              href="https://wa.me/6282189228725"
+              target="_blank"
+              className="text-base font-semibold text-white bg-[#3674B5] py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
               Contact Me
             </a>

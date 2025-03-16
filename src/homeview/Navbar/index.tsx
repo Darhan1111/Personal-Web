@@ -44,10 +44,10 @@ export default function NavBar() {
           Juga pastikan “justify-between” masih dipertahankan jika ingin konten kiri-kanan.
         */}
         <div className="flex items-center justify-between relative">
-          <div className="px-4 ml-30">
+          <div className="px-4 ml-4 sm:ml-12">
             <a
               href="#home"
-              className="font-bold text-xl text-teal-500 block py-6"
+              className="font-bold text-xl text-[#3674B5] block py-6 whitespace-nowrap"
             >
               Darhan Portofolio
             </a>
@@ -84,22 +84,22 @@ export default function NavBar() {
                 <li className="group">
                   <a
                     href="#home"
-                    className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary"
+                    className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary whitespace-nowrap"
                   >
                     About Me
                   </a>
                 </li>
                 <li className="group">
                   <a
-                    href="#home"
-                    className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary"
+                    href="#skills"
+                    className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary whitespace-nowrap"
                   >
                     My Skills
                   </a>
                 </li>
                 <li className="group">
                   <a
-                    href="#home"
+                    href="#portofolio"
                     className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary"
                   >
                     Portofolio
@@ -107,7 +107,7 @@ export default function NavBar() {
                 </li>
                 <li className="group">
                   <a
-                    href="#home"
+                    href="#testimonials"
                     className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary"
                   >
                     Testimonials
@@ -115,7 +115,15 @@ export default function NavBar() {
                 </li>
                 <li className="group">
                   <a
-                    href="#home"
+                    href="#experience"
+                    className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Experience
+                  </a>
+                </li>
+                <li className="group">
+                  <a
+                    href="#contact"
                     className="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary"
                   >
                     Contact

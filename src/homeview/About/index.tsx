@@ -4,7 +4,7 @@ export default function About() {
       <div className="container mx-auto p-5">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2">
-            <h4 className="font-bold uppercase text-teal-500 text-lg mb-3">
+            <h4 className="font-bold uppercase text-[#3674B5] text-lg mb-3">
               About Me
             </h4>
             <h2 className="font-bold text-slate-900 text-3xl mb-5 max-w-md lg:text-4xl">

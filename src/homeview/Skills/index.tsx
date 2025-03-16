@@ -5,7 +5,7 @@ export default function Skills() {
     <section id="skills" className="text-gray-400 bg-secondary-500 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap border-t-2 border-secondary-600">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="font-semibold text-3xl text-teal-500 mb-2">
+          <h2 className="font-semibold text-3xl text-[#3674B5] mb-2">
             My Skills
           </h2>
         </div>
