@@ -21,7 +21,7 @@ const Experience: React.FC<Props> = ({ experiences }) => {
         <div className="space-y-8">
           {experiences.map((exp, index) => (
             <div key={index} className="p-6 bg-white shadow-md rounded-lg">
-              <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
                 <div>
                   <h3 className="text-xl font-semibold">{exp.title}</h3>
                   <p className="text-gray-600">{exp.company}</p>
